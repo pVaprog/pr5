@@ -1,0 +1,44 @@
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Исполняемые файлы
+*.out
+*.exe
+*.o
+*.obj
+*.a
+*.so
+*.dll
+
+# Временные файлы
+*.tmp
+*.temp
+*.log
+
+# Файлы сборки
+build/
+bin/
+obj/
+
+# Файлы IDE
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Другие временные файлы
+*.class
+*.pyc
+*.pyo
+*.pyd
+
+# Файлы с настройками
+*.user
+*.sublime-settings
+*.sublime-project
+
+#Файлы при сборке
+/signal_prog
+/pipe_prog
