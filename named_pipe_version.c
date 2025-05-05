@@ -21,6 +21,7 @@ int main(int argc, char *argv[]) {
 		exit(EXIT_FAILURE);
 	}
 
+	//проверка на корректность
 	int N = atoi(argv[1]);
 	if (N <= 0) {
 		fprintf(stderr, "N должно быть положительным числом\n");
